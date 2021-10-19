@@ -1,12 +1,5 @@
 name: e2e
 on:
-  push:
-    branches:
-      - 'main'
-    paths-ignore:
-      - 'README.md'
-      - 'docs/**'
-      - '.github/config.yml'
   pull_request:
     branches:
       - 'main'

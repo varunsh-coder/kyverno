@@ -42,3 +42,7 @@ jobs:
         id: buildx
         with:
           install: true     
+      
+      - name :  docker images publish
+        run: |
+          make docker-build-cli

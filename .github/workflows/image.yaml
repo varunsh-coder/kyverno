@@ -1,8 +1,6 @@
 name: image
 on:
-  push:
-    branches:
-      - 'main'
+  workflow_dispatch
 jobs:
   push-init-kyverno:
     runs-on: ubuntu-latest

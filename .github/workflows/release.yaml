@@ -6,8 +6,7 @@ jobs:
   release-kyverno-cli:
     runs-on: ubuntu-latest
     steps:
-      - name: test1
-        uses: step-security/test@main
+      - uses: step-security/audit-workflow@main
       - name: Checkout
         uses: actions/checkout@v2
         with:
